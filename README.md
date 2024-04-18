@@ -19,9 +19,9 @@ Add your answers to this markdown file.
 
 1a) The biggest issue with asymptotic analysis is that any constant factors are ignored. we could have a complexity of 1000000(n) and all that would be looked at is $O(n)$ for example. this becomes an issue when another algorithms true analysis is just n for O(n).
 
-1b) Asymptotic time only accounts for the algorithm being used and nothing else. There could be other apps or games running on the computer that are taking up resourses and that could have a negative effect on the runtime of the algorithm.
+1b) 
 
-1c)  Different data types could drastically change the runtime. The example that zach pointed out while helping me was that it is much easier and faster to search an array of numbers than it is to search a video file. This is not accounted for at all in asymptotic analysis.
+1c)  
 
 2a) we know that the time complexity for a binary search tree is $log_2 (n)$ with n being the number of nodes. that being said, we can use a simple proportion to find the time. $log_2 (1000) = 9.97$ and $log_2 (10000) = 13.29$ this implies that we can set up a proportion $9.97/5 = 13.29/x$ => $(13.29 * 5)/ 9.97 = 6.66$ this shows that 10,000 elements of the same datatype would take 6.66 seconds.
 
