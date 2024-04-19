@@ -19,7 +19,7 @@ Add your answers to this markdown file.
 
 1a) The biggest issue with asymptotic analysis is that any constant factors are ignored. we could have a complexity of 1000000(n) and all that would be looked at is $O(n)$ for example. this becomes an issue when another algorithms true analysis is just n for O(n).
 
-1b) 
+1b) The hardware that is being used can change the runtime because different computers have different amounts of ram or cores. This is a factor that the asymptotic analysis can't account for because the algorithm will be the same.
 
 1c)  
 
