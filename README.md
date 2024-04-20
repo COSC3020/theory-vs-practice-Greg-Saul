@@ -19,7 +19,7 @@ Add your answers to this markdown file.
 
 1a) The biggest issue with asymptotic analysis is that any constant factors are ignored. we could have a complexity of 1000000(n) and all that would be looked at is $O(n)$ for example. this becomes an issue when another algorithms true analysis is just n for O(n).
 
-1b) The hardware that is being used can change the runtime because different computers have different amounts of ram or cores. This is a factor that the asymptotic analysis can't account for because the algorithm will be the same.
+1b) The bounds of the algorithms could be misleading if you were comparing two algorithms. For example if two algorithms both have a complexity of $O(n^2)$ then someone may assume that they have the same complexity. This isn't always true because algorithm 'a' might be less tightly bound from the bottom compared to the bottom bound of algorithm 'b'
 
 1c)  Different methods of compares that are used can make a big difference be a factor that asymptotic analysis doesn't account for. For example in 2030 we learned that while == and string.compare() in c++ have the same output, string.compare() produces a much faster process. If there were two functions, and one used == and the other used the .compare(), they would have the same analysis but likely have different true runtimes.
 
@@ -35,6 +35,6 @@ Add your answers to this markdown file.
 
 
 #### Help used
-Zach Renz gave a hint by pointing out that not all datasets have the same data type and not all computers run at the same speed
+Zach Renz gave a hint by pointing out that not all datasets have the same data type and not all computers run at the same speed and helped with thinking about the bounds.
 
 used https://github.com/COSC3020/theory-vs-practice-AaronATM to help me with 1c
