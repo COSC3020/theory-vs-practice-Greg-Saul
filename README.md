@@ -21,7 +21,7 @@ Add your answers to this markdown file.
 
 1b) The hardware that is being used can change the runtime because different computers have different amounts of ram or cores. This is a factor that the asymptotic analysis can't account for because the algorithm will be the same.
 
-1c)  Asymptotic time analysis for example doesn't tell the whole story about the space usage. An algorithm that is theoretically very efficient timewise may actually have the performance changed because it isn't very efficient with its space usage.
+1c)  Different methods of compares that are used can make a big difference be a factor that asymptotic analysis doesn't account for. For example in 2030 we learned that while == and string.compare() in c++ have the same output, string.compare() produces a much faster process. If there were two functions, and one used == and the other used the .compare(), they would have the same analysis but likely have different true runtimes.
 
 2a) we know that the time complexity for a binary search tree is $log_2 (n)$ with n being the number of nodes. that being said, we can use a simple proportion to find the time. $log_2 (1000) = 9.97$ and $log_2 (10000) = 13.29$ this implies that we can set up a proportion $9.97/5 = 13.29/x$ => $(13.29 * 5)/ 9.97 = 6.66$ this shows that 10,000 elements of the same datatype would take 6.66 seconds.
 
@@ -36,3 +36,5 @@ Add your answers to this markdown file.
 
 #### Help used
 Zach Renz gave a hint by pointing out that not all datasets have the same data type and not all computers run at the same speed
+
+used https://github.com/COSC3020/theory-vs-practice-AaronATM to help me with 1c
